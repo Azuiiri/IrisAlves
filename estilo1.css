@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 203vh;
+}
+nav {
+    height: 250px;
+    margin-bottom: 60px;
+}
+
+#menu {
+    list-style: none;
+    padding: 0px;
+    background-color: rgba(223, 199, 169, 0.745);
+    height: 100%;
+
+}
+
+#menu li {
+    display: inline;
+   
+}
+
+#menu li a {
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Bad Script', cursive;
+    color: rgb(31, 31, 31);
+   font-size: 22px;
+   display: flexbox;
+   
+}
+
+#menu li a:hover {
+    background-color: rgba(91, 73, 33, 0.683);
+}
+
+.menuA {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.Editar {
+    width: 110px;
+    height: 100px;
+    padding-top: 0px;
+
+}
+.titulo {
+    justify-content: center;
+    display: flex;
+    font-size: 35px;
+    font-family: 'Princess Sofia', cursive;
+    color: rgb(71, 56, 45);
+    margin-top: 20px;
+}
+
+.images {
+    border: 3px solid rgb(255, 159, 148);
+    display:flex;
+    width: 230px; 
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+    -webkit-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
+
+}
+.images:hover{
+ border: 3px solid rgb(255, 159, 148);
+ -webkit-filter: sepia(100%);
+ filter: sepia(0%);
+ -webkit-transition: .4s ease-in-out;
+ transition: .4s ease-in-out;
+}
+
+h2{
+    font-family: 'Indie Flower', cursive;
+    text-align: start;
+    display: flex;
+    border: 2px solid rgb(255, 159, 148);
+    font-size: 20px;
+    background-color: rgba(223, 199, 169, 0.745);
+}
+
+h3{
+    font-size: 60px;
+    font-family: 'Princess Sofia', cursive;
+    text-align: center;
+}
+
+h4{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Princess Sofia', cursive;
+
+}
+
+h5{
+   font-size: 15px;
+   font-family: 'Indie Flower', cursive;
+   text-align: center;
+
+}

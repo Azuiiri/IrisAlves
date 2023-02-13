@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Fleur+De+Leah&family=Ruthie&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+}
+nav {
+    height: 250px;
+    margin-bottom: 60px;
+}
+
+#menu {
+    list-style: none;
+    padding: 0px;
+    background-color: rgba(149, 128, 78, 0.585);
+    height: 100%;
+
+}
+
+#menu li {
+    display: inline;
+   
+}
+
+#menu li a {
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Bad Script', cursive;
+    color: rgb(31, 31, 31);
+   font-size: 22px;
+   display: flexbox;
+   
+}
+
+#menu li a:hover {
+    background-color: rgba(91, 73, 33, 0.683);
+}
+
+.menuA {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.Editar {
+    width: 110px;
+    height: 100px;
+    padding-top: 0px;
+}
+
+.titulo {
+    justify-content: center;
+    display: flex;
+    font-size: 35px;
+    font-family: 'Ruthie', cursive;
+    color: rgb(71, 56, 45);
+    margin-top: 20px;
+   
+}
+
+.images {
+    border: 4px solid rgba(240, 152, 152, 0.83);
+    display:flex;
+    width: 407px; 
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+    -webkit-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
+
+}
+.images:hover{
+ border: 4px solid rgba(161, 80, 59, 0.936);
+ -webkit-filter: sepia(100%);
+ filter: sepia(0%);
+ -webkit-transition: .4s ease-in-out;
+ transition: .4s ease-in-out;
+}
+
+h2{
+    
+    text-align: start;
+    display: flex;
+    border: 3px solid rgba(161, 80, 59, 0.936);
+    font-size: 20px;
+    background-color: rgba(223, 199, 169, 0.579);
+}
