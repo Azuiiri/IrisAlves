@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Fleur+De+Leah&family=Ruthie&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Jim+Nightshade&display=swap');
 * {
     margin: 0 auto;
     padding: 0;
@@ -11,7 +12,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 120vh;
+    height: 213vh;
 }
 nav {
     height: 250px;
@@ -61,7 +62,7 @@ nav {
 .titulo {
     justify-content: center;
     display: flex;
-    font-size: 35px;
+    font-size: 62px;
     font-family: 'Ruthie', cursive;
     color: rgb(71, 56, 45);
     margin-top: 20px;
@@ -93,4 +94,27 @@ h2{
     border: 3px solid rgba(161, 80, 59, 0.936);
     font-size: 20px;
     background-color: rgba(223, 199, 169, 0.579);
+}
+
+h3{
+    font-size: 60px;
+    font-family: 'Ruthie', cursive;
+    text-align: center;
+
+
+}
+
+h4{
+    font-size: 30px;
+   text-align: center;
+   
+   font-family: 'Jim Nightshade', cursive;
+
+
+}
+
+h5{
+    font-size: 15px;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
 }
